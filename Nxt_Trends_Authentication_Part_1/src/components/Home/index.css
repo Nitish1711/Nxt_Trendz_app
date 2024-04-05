@@ -1,0 +1,52 @@
+.container {
+  padding: 2% 10% 5% 10%;
+}
+
+.main-container {
+  padding-top: 5%;
+}
+
+.left-side {
+  padding-top: 5%;
+  padding-left: 0;
+  padding-right: 5%;
+  width: 50%;
+  float: left;
+}
+
+.right-side {
+  width: 45%;
+  float: right;
+  padding-right: 0;
+  padding-top: 5%;
+}
+
+.clothes {
+  width: 85%;
+  float: right;
+}
+
+.shop-now-btn {
+  color: #ffffff;
+  background-color: #0b69ff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 28px 8px 28px;
+  font-size: medium;
+  font-family: Roboto;
+}
+
+.heading,
+.paragraph {
+  font-family: Roboto;
+}
+
+.paragraph {
+  color: #64748b;
+  font-size: large;
+  line-height: 30px;
+}
+
+.heading {
+  font-size: 50px;
+}

@@ -1,0 +1,50 @@
+.nav-bar {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  height: 25%;
+  background-color: #ffffff;
+  flex-direction: row;
+}
+
+.logo {
+  height: 15%;
+  width: 15%;
+  min-width: 90px;
+}
+
+.nav-bar-r {
+  margin-left: auto;
+}
+
+.home-btn,
+.product-btn,
+.cart-btn,
+.logout-btn {
+  font-family: Roboto;
+  font-size: 20px;
+  color: #475569;
+  opacity: 95%;
+  background-color: #ffffff;
+  margin: 10px;
+}
+
+.home-btn,
+.product-btn,
+.cart-btn {
+  border: none;
+}
+
+.logout-btn {
+  color: #ffffff;
+  background-color: #0b69ff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 18px 8px 18px;
+  font-size: medium;
+}
