@@ -1,0 +1,51 @@
+/* Write your CSS here */
+
+.upper-product {
+  display: flex;
+  padding: 5%;
+  justify-content: center;
+}
+
+.product-img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.product-details {
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: red;
+  margin: 0 0 0 2%;
+}
+
+.product-function {
+  display: flex;
+}
+
+.cart-btn {
+  background-color: #3b82f6;
+  color: #ffffff;
+  padding: 5px 10px 5px 10px;
+  border: none;
+  border-radius: 3px;
+  margin-top: 4%;
+}
+
+.decrement,
+.increment,
+.count-number {
+  margin: 10px;
+}
+
+.rating-review {
+  display: flex;
+}
+
+.rating {
+  background-color: #3b82f6;
+  color: #ffffff;
+  padding: 3px 10px 3px 10px;
+  border: none;
+  border-radius: 3px;
+}
