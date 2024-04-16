@@ -1,0 +1,39 @@
+Filter.css
+.filters-group-container {
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 30%;
+    max-width: 350px;
+    margin-top: 48px;
+    flex-shrink: 0;
+  }
+}
+
+/* Write your CSS here */
+
+.rating-item {
+  display: flex;
+}
+
+.rating-item img {
+  width: 40%;
+  margin-bottom: 10px;
+  margin-right: 3%;
+}
+
+.category-filtering ul {
+  padding-left: 0;
+}
+
+.clear-filters {
+  margin-top: 5%;
+  border-radius: 5px;
+  border: 2px solid #0967d2;
+  background-color: #ffffff;
+  color: #0967d2;
+  padding: 5px 10px 5px 10px;
+  font-family: Roboto;
+}
